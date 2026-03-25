@@ -1,0 +1,8 @@
+1.What Do You Mean By Data Structure & Algorithms?
+Data Structure is basically known as a way to store the Data in the format which is called as Structure either in linear fashion or in 
+Hierarchical Fashion, Where Algorithms are the sequence of steps, operation or way to execute the code efficiently.
+2.What do you Mean by Array?
+Array is a linear Data Structure which is used to store multiple values in single variable and which can be accessed by index.
+It stores the Data in the contiguous Memory and the data should be of one type either integer, character, float etc.
+       Syntax-> Data_Type Variable_Name[size]={Values};
+       Example:- Marks[5]={10,20,3,90,77};
