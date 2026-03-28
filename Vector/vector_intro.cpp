@@ -28,4 +28,26 @@ int main()
     {
         cout<<value<<" ";
     }
+    char_vec.push_back('d');
+    for(char value:char_vec)
+    {
+        cout<<value<<""<<endl;
+    }
+    cout<<"Size of vector reaches to "<<char_vec.size()<<endl;
+    cout<<"Pop_Back function";
+    char_vec.pop_back();
+    for(char value:char_vec)
+    {
+        cout<<value<<""<<endl;
+    }
+
+    cout<<"Front function"<<endl;
+    cout<<char_vec.front()<<endl;
+
+    cout<<"Back function"<<endl;
+    cout<<char_vec.back();
+     
+    cout<<"\n At() function"<<endl;
+    cout<<char_vec.at(1); // return the value at index 1 which is 'b'
+
 }
