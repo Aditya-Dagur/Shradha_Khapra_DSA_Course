@@ -24,3 +24,9 @@ Some Inbuilt Function  are there while we are using vectors which are:
 4. front() function: This will return the first element of vector.
 5. back() function: This will return the last element of vector.
 6. at() function: this is used to return the value at any index which is passed inside it.
+
+==>Static & Dynamic Memory allocation:
+In Static the size is fixed and it generally created at compile time and use stack data structure to store the data.
+Example: Array
+In Dynamic the size can be vary and is created or extend at run time bcz we are using the heap data structure to the data.
+Example: <Vectors> 
