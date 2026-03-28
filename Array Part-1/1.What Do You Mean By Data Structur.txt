@@ -7,3 +7,20 @@ Array is a linear Data Structure which is used to store multiple values in singl
 It stores the Data in the contiguous Memory and the data should be of one type either integer, character, float etc.
        Syntax-> Data_Type Variable_Name[size]={Values};
        Example:- Marks[5]={10,20,3,90,77};
+<<<<<<< HEAD
+=======
+
+======================================================================= Vectors ==============================================================================
+Vectors Are the Array Like Data Structure which is dynamic in nature which is present in C++ STL(Structure Template Library) and for that we have include a dedicated header file in the starting of file #include<vector>.
+Syntax: Vector_Keyword <datatype> name_of_Vector;
+
+Example:  vector<int>vec;    vector<int>vec={1,2,3,4};    vector<int>vec(3,0);
+
+We can run a loop over vector which is for each loop just like array but that doesn't work over indices.
+for Example: for(int iterator : vector_name) in this iterator is nothing but the value over the index.
+
+Some Inbuilt Function  are there while we are using vectors which are:
+1. size() function:- This will return the size of vector.
+2. push_back() function: This is used to add value in the  empty vector, or some new value if we want to add.
+
+>>>>>>> 4f07495 (Adding Vector Notes and some practice question stuff along with array)
