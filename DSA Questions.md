@@ -1,6 +1,7 @@
 **DSA Questions:-**
 
 
+
 1\. Single Number-Return a Single number which is unique in the given array elements.
 
 &#x20;     Approach=> Run a loop over the array and use XOR operation that will cancel all the duplicate elements.
@@ -22,4 +23,7 @@
 4\. Reverse Array: WAP to Reverse the array Elements and return the new reversed array.
 
 &#x20;     Approach: Use Two Pointer to reverse where one is arr\[left]=0 and arr\[right]=arr.size()-1,while(left<right) swap the left element with right.
+
+5. Prime Number- WAP to Check weather a number is prime or not.
+      Approach: Run a loop from i=2 to i\*i<=n and check wheather (n%i!=0) then prime;
 
